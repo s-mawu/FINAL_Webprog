@@ -1,16 +1,20 @@
 .ContainerHome {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f4f34;
 }
 
 .bgHome {
-    display: flex;
-    height: 732px;
-    width: 100%;
-    justify-content: center;
-    
+  display: flex;
+  width: 80%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .bgHome img {
-    width: 600px;
+  width: 400px;
+  /* box-shadow: black; */
 }
